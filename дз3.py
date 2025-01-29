@@ -200,7 +200,50 @@
 # print(log)
 
 #ж
-x = 2
-y = 1
-log = not (x*y<0) or y>x
-print(log)
+# x = 2
+# y = 1
+# log = not (x*y<0) or y>x
+# print(log)
+
+#Задание 11
+# a, b, c = True, True, True
+# total = not (a or not b and c)
+# total_1 = a and not (b and or not c) # условие и/или невыполнимо.
+# total_2 = not (not a or b and c)
+# print(total, total_1, total_2)
+
+# #Задание 3.15
+# a = int(input("Введите число A: "))
+# b = int(input("Введите число B: "))
+# c = int(input("Введите число C: "))
+# logic = a > 100 and b > 100
+# logic_1 = (a%2 == 0 and b%2 != 0) or (a%2 != 0 and b%2 == 0)
+# logic_2 = a > 0 or b > 0
+# logic_3 = a%3 == 0 and b%3 == 0 and c%3 == 0
+# logic_4 = (a < 50 and b > 50 and c > 50) or (a > 50 and b < 50 and c > 50) or (a > 50 and b > 50 and c < 50)
+# logic_5 = a < 0 or b <0
+# print(logic, logic_1, logic_2, logic_3, logic_4, logic_5, sep = "\n")
+
+#Задание 3.16
+# x = int(input("Введите число X: "))
+# y = int(input("Введите число Y: "))
+# z = int(input("Введите число Z: "))
+# log = x < 0 and y < 0
+# log_1 = (x < 20 and y > 20) or (x > 20 and y< 20)
+# log_2 = x == 0 or y == 0
+# log_3 = x < 0 and y < 0 and z <0
+# log_4 = (x%5 == 0 and y%5 != 0 and z%5 != 0) or (x%5 !=0 and y%5 == 0 and z%5 != 0) or (x%5 !=0 and y%5 != 0 and z%5 == 0)
+# log_5 = x > 100 or y > 100 or z > 100
+# print(log, log_1, log_2, log_3, log_4, log_5, sep = "\n")
+
+#Задание 3.30
+# a = int(input("Введите число A: "))
+# log_1 = a%2 == 0 and a%3 == 0
+# log_2 = a%3 != 0 and a%10 == 0
+# print(log_1, log_2)
+
+#Задание 3.31
+n = int(input("Введите число N: "))
+log_1 = n%5 == 0 or n/7 == 0
+log_2 = n%4 == 0 and n%10 != 0
+print(log_1, log_2)
